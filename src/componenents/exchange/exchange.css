@@ -1,0 +1,181 @@
+.exchange-container {
+    padding: 0.5rem;
+    width: 30vw;
+    height: 14.25vw;
+    box-shadow: 0 0 10px 2px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    position: relative;
+    background-color: white;
+}
+
+.exchange-container input {
+    height:2rem;
+    border: 1.5px solid rgba(0,0,0,0.2);
+    border-radius: 5px; 
+
+}
+
+.exchange-container h5{
+    font-size: 1rem;
+    margin-left: 1.5rem;
+}
+    
+
+
+.exchange-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 1.2rem;
+    
+    
+}
+.exchange-top p{
+    color: red;
+    font-size: 0.84rem;
+    font-weight: 550;
+    
+}
+
+.exchange-bottom {
+    display: flex;
+    align-items: center;
+    
+    margin-top: 1.2rem;
+    margin-right:9.5rem;
+    
+}
+.exchange-bottom p{
+    color: green;
+    font-size: 0.8rem;
+    font-weight: 550;
+    margin-left: 2.4rem;
+}
+
+.select {
+    width:5rem;
+    height:2rem;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.2);
+    font-weight: 600;
+
+}
+
+.buy-select {
+    margin-left: 2rem;
+}
+
+.sell-select{
+    margin-left: -0.3rem;
+}
+
+.exchange-btn{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:8rem;
+    height: 2.4rem;
+    font-weight: 600;
+    
+    font-size: 0.9rem;
+    background-color: rgb(61, 102, 214);
+    color:white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 1.1rem;
+    
+    
+    
+
+}
+
+.exchange-btn:hover{
+    background-color: rgb(38, 152, 48);
+    cursor: pointer;
+    transform: scale(1.08);
+    transition: all 400ms ease;
+}
+.btn-div{
+    display: flex;
+    justify-content: center;
+}
+
+
+.ex-icon{
+    color: rgb(176, 255, 176);
+    font-size: 1.3rem;
+}
+.exchange-btn:hover .ex-icon{
+    color:white;
+}
+
+.exchanged-value{
+    position: fixed;
+    font-weight: 600;
+    right:36vw;
+
+    
+}
+
+@media (max-width:1024px) {
+    .exchange-container{
+        
+        width:80vw;
+        height:25vh;
+    }
+    .exchange-top{
+        margin-right: 27vw;
+        margin-top: 4vh;
+    }
+    .exchange-container h5{
+        margin-top: 3vh;
+        
+    }
+    
+}
+
+@media (max-width:600px) {
+    .exchange-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        width:80vw;
+        height:40vh;
+    }
+    .exchange-top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 20vw;
+        
+    }
+    .sell-select{
+        margin-left: 5vw;
+        margin-bottom: 1vh;
+    }
+
+    .buy-select{
+        margin-top: 0.2vh;
+        margin-left: 13.5vw;
+    }
+    .exchange-bottom{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          margin-left: 24vw;
+    }
+    .exchange-btn{
+        margin-right: 1vw;
+    }
+    .exchange-container h5{
+        margin-left: 20vw;
+        margin-top: -1vh;
+    }
+   
+
+    
+    
+}
+

@@ -1,0 +1,38 @@
+.curr-dd{
+    margin-left: 1rem;
+} 
+
+/* crytpo drop down */
+
+.crypto-drop-down-container{
+ 
+  margin-left: 7rem;
+  
+
+}
+
+.crypto-select{
+    width: 7.2rem;
+    margin-right: 2rem;
+}
+
+/* chart drop down */
+
+.chart-select {
+    width: 7.2rem;
+}
+
+
+
+@media (max-width:1024px ){
+    .crypto-select{
+        margin-right: 6rem;
+    } 
+
+    .chart-select{
+        margin-right: 7rem;
+    }
+}
+
+
+

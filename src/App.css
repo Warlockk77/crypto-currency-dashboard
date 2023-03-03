@@ -1,38 +1,149 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;800&family=Lato&family=Montserrat:wght@300;400;500;600;700;800&family=Mukta:wght@400;500;600;700;800&family=Play:wght@400;700&family=Playfair+Display+SC:wght@700&family=Poppins:wght@300;400;500;600;700&family=Varela+Round&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app{
+  background-color: rgb(255, 249, 247);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body::-webkit-scrollbar{
+  display: none;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+select {
+  height:2.7rem;
+  border: 2px solid rgba(0,0,0,0.2);
+  border-radius: 5px;
+  color: rgb(51, 51, 51);
+  font-weight: 600;
+  padding: 0.2rem;
+  width: 5rem;
+  outline: none;
+  
+}
+input {
+  border:none;
+  outline: none;
+}
+
+.loader {
+  color:blueviolet;
+}
+.zero{
   display: flex;
-  flex-direction: column;
+  
+}
+
+.one {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  align-items:flex-start;
+}
+.two {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.three {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.c-div{
+ padding: 1rem;
+}
+
+.dd{
+  display: flex;
+  
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
 }
 
-.App-link {
-  color: #61dafb;
+
+
+@media (max-width:1024px) {
+  .app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .zero {
+    display: flex;
+    flex-direction: column;
+  }
+  .one{
+    display: flex;
+  }
+  .three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .dd{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  }
+
+  
+ 
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width:600px) {
+  .app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
   }
-  to {
-    transform: rotate(360deg);
+  .zero {
+    display: flex;
+    flex-direction: column;
+  }
+  .one{
+    display: flex;
+  }
+  .three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .dd{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
   }
 }
+
+
+
+
+

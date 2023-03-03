@@ -1,0 +1,32 @@
+.nav-div{
+    background:linear-gradient(.25turn, #009FFD, 10%, #2A2A72);
+    display: flex;
+    justify-content: flex-start;
+    height: 75px;
+    align-items: center;
+    
+    
+
+}
+.nav-div h3{
+    color: rgb(255, 255, 255);
+    margin-left: 1rem;
+    font-family: 'Play', sans-serif;
+}
+
+
+
+.nav-div img{
+    width:50px;
+    height: 50px;
+    margin-left: 2rem;
+    border-radius: 50%;
+    border: 2px solid rgb(170, 219, 227);
+    
+}
+
+@media (max-width:600px) {
+    .nav-div img{
+        margin-left: 3vw;
+    }
+}

@@ -1,0 +1,47 @@
+.time-btn-container {
+  padding: 0.5rem;
+  margin-right: 10vw;
+  
+}
+
+.time-btn {
+    width:3rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+    border-radius: 5px;
+    border:none;
+    background-color: rgb(144, 160, 187);
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.time-btn:hover{
+    transform: scale(1.10);
+    transition: all 400ms ease;
+    background-color: rgb(200, 216, 230);
+    color: black;
+    cursor: pointer;
+}
+
+/* responsiveness */
+
+@media (max-width:1024px) {
+    .time-btn-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+
+    }
+
+    .time-btn{
+        width:30vw;
+
+    }
+
+    .time-span-container{
+           margin-left:11vw;
+    }
+}
+
+
