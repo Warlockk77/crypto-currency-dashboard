@@ -1,3 +1,6 @@
+#This is a highly responsive Crypto Currency Dashboard Project designed using , React , chart.js , redux , RTK query , coingecko api .. etc
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
