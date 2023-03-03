@@ -1,4 +1,28 @@
-#This is a highly responsive Crypto Currency Dashboard Project designed using , React , chart.js , redux , RTK query , coingecko api .. etc
+
+
+# The Cryptocurrency Dashboard Frontend Capstone Project is designed using ReactJS and other libraries like chart.js , react-chartjs-2 ..etc .
+
+
+# Information including cryptocurrency prices , history , daychange , currency conversion .. etc can be accessed using this site. 
+
+
+# his site is highly responsive and can be used on tablets and mobile phones too.
+
+
+# Different components are put together to design the overall structure of the site.
+
+
+# Chart.js has been used to overcome the challenge of demonstrating the data in chart forms . 
+
+
+# Redux and Redux toolkit has been used for store and state management to manage states .
+
+
+# Media queries have been used for responsiveness.
+
+
+# RTK query has been used for creating api and coingecko api has been used to fetch data.
+
 
 
 # Getting Started with Create React App
